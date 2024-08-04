@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'task5',
+    'task5.apps.task5Config',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',

@@ -12,11 +12,6 @@ def index(request):
         password2 = request.Post.get('password2')
         age = request.Post.get('age')
 
-        print(login)
-        print(password1)
-        print(password2)
-        print(int(age))
-
         if password1 == password2 and int(age) >= 18:
             return HttpResponse(f"Приветствуем, {login}")
         elif int(age) < 18:
